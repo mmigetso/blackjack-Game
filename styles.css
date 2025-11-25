@@ -1,0 +1,44 @@
+body{
+    background: green;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 20%;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#message-el{
+    font-size: 30px;
+}
+
+#sumEl, #cardsEl{
+    font-size: 25px;
+}
